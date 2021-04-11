@@ -54,29 +54,43 @@ p {
     vertical-align: middle;
 }
 .menu{
-    list-style: none;
+    
     position: fixed;
-    top:10px;
-    right: 30px;
+    top:0px;
+    background: white;
+    width: 100%;
     z-index: 10;
-    cursor: pointer;
 }
 .links{
-    float: left;
+    
     color: darkblue;
-    padding-top: 5px;
-    padding-bottom: 5px;
-      padding-left: 9px;
-          padding-right: 9px;
+      padding-left: 33px;
+          padding-right: 25px;
     font-family: fantasy;
     font-size: 25px;
+    display: inline;
 }
 .links:hover{
     background-color: gold;
+    font-size:30px;
+    text-decoration: underline;
 }#name{
     font-size: 25px;
     font-family: lobster;
 }
 html{
     scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+#contact{
+  background: skyblue;  
+}
+#contact iframe{
+ width: 100%;   
+}
+.contact_1 h3{
+    display: inline;
+    color: aliceblue;
 }
