@@ -1,6 +1,6 @@
 body {
     padding-top: 700px;
-text-align:center;
+    text-align: center;
 
 
 
@@ -53,44 +53,70 @@ p {
     text-align: center;
     vertical-align: middle;
 }
-.menu{
-    
+
+.menu {
+
     position: fixed;
-    top:0px;
+    top: 0px;
     background: white;
     width: 100%;
     z-index: 10;
 }
-.links{
-    
+
+.links {
+
     color: darkblue;
-      padding-left: 33px;
-          padding-right: 25px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-size: 25px;
     display: inline;
 }
-.links:hover{
+
+.links:hover {
     background-color: gold;
-    font-size:30px;
+    font-size: 30px;
     text-decoration: underline;
-}#name{
+}
+
+#name {
     font-size: 25px;
     font-family: lobster;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-a{
+
+a {
     text-decoration: none;
 }
-#contact{
-  background: skyblue;  
+
+#contact {
+    background: skyblue;
 }
-#contact iframe{
- width: 100%;   
+
+#contact iframe {
+    width: 100%;
 }
-.contact_1 h3{
+
+.contact_1 h3 {
     display: inline;
     color: aliceblue;
+}
+
+#myCarousel {
+    background-color: darkmagenta;
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
 }

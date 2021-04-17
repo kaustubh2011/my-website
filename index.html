@@ -3,7 +3,7 @@
 <head>
     <title>class 57</title>
     <link rel="stylesheet" href="style.css">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -48,12 +48,34 @@
         <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/YpC6pAILIyZarruXP7aym12XBo8cHC4rp6t7RhWnbHU/embed"></iframe>
         <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/Ac81pkL8QNRicXDcpXk2ZGPL-1bBQvi0E2lHZLZz8ic/embed"></iframe>
     </section>
-    <section id="games">
-        <h1>MY GAMES</h1>
-        <hr>
-        <a href="https://studio.code.org/projects/playlab/-GBIm4J4NwRlOOBb0dneX6kXiEJiMQVIJZ0Ljd44P6k" target="_blank"><img src="dragon.png">dragon attack</a>
-        <a href="https://studio.code.org/projects/playlab/z8P9Vxcw1TJPYTc7fGButtViBUs7yeTY1h2yfon23b8" target="_blank"><img src="math.png">math quiz</a>
-    </section>
+    
+        <div class="container">
+
+            <h2>click on the games to explore</h2>
+            <h5>these games are build in game lab,click on the game to play</h5>
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <a href="https://studio.code.org/projects/playlab/-GBIm4J4NwRlOOBb0dneX6kXiEJiMQVIJZ0Ljd44P6k" target="_blank"><img src="dragon.png" class="img-responsive"></a>
+                            <h2>dragon attack</h2>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a href="https://studio.code.org/projects/playlab/z8P9Vxcw1TJPYTc7fGButtViBUs7yeTY1h2yfon23b8" target="_blank"><img src="math.png" class="img-responsive"></a>
+                            <div class="carousel-content">
+                                <h2>math quiz</h2>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+            </div>
+        </div>
+    
     <section id="chatbot">
         <h1>MY CHATBOT</h1>
         <hr>
@@ -73,6 +95,7 @@
 
 
     </section>
+
 </body>
 
 </html>
